@@ -106,9 +106,12 @@ body.lightbox-open{overflow:hidden}
 
 
 /* Brand dan judul utama: animasi masuk yang lembut */
-.brand-name{display:inline-block;font-size:.88em;letter-spacing:.15px;transition:letter-spacing .3s ease,opacity .3s ease}
+
+/* Animasi nama yang terlihat saat halaman pertama kali dibuka */
+.brand-name{display:inline-block;font-size:.88em;letter-spacing:.15px;transition:letter-spacing .3s ease,opacity .3s ease;animation:brandNameReveal .9s cubic-bezier(.2,.75,.25,1) .12s both}
 .brand:hover .brand-name{letter-spacing:.65px}
-.hero-name-animated{display:inline-block;opacity:0;transform:translateY(18px);filter:blur(5px);animation:nameReveal 1.25s cubic-bezier(.2,.75,.25,1) .35s forwards}
-@keyframes nameReveal{0%{opacity:0;transform:translateY(18px);filter:blur(5px);letter-spacing:.08em}65%{opacity:1;filter:blur(0)}100%{opacity:1;transform:translateY(0);filter:blur(0);letter-spacing:normal}}
-@media(max-width:700px){.brand-name{font-size:.78em;letter-spacing:0}.hero-name-animated{animation-duration:1s}}
-@media(prefers-reduced-motion:reduce){.hero-name-animated{opacity:1;transform:none;filter:none;animation:none}}
+@keyframes brandNameReveal{0%{opacity:0;transform:translateX(-14px);filter:blur(4px)}100%{opacity:1;transform:translateX(0);filter:blur(0)}}
+.hero-name-animated{display:inline-block;opacity:0;transform:translateY(26px);filter:blur(8px);animation:nameReveal 1.6s cubic-bezier(.2,.75,.25,1) .55s both}
+@keyframes nameReveal{0%{opacity:0;transform:translateY(26px);filter:blur(8px);letter-spacing:.09em}55%{opacity:.8;filter:blur(2px)}100%{opacity:1;transform:translateY(0);filter:blur(0);letter-spacing:normal}}
+@media(max-width:700px){.brand-name{font-size:.78em;letter-spacing:0}.hero-name-animated{animation-duration:1.35s}}
+@media(prefers-reduced-motion:reduce){.brand-name,.hero-name-animated{opacity:1;transform:none;filter:none;animation:none}}
