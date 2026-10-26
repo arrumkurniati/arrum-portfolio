@@ -34,3 +34,6 @@ Skill bar adalah elemen visual dekoratif, bukan hasil penilaian kemampuan.
 Versi ini menambahkan foto wisuda bersama pimpinan kampus sebagai foto profil, dokumentasi karya tulis ilmiah, serta tautan langsung untuk membuka tiga sertifikat penghargaan (Duta Kebakres, Duta Kampus, dan Lomba Vlog). Ukuran huruf juga diperbesar agar lebih mudah dibaca di desktop maupun ponsel.
 
 Catatan: foto khusus praktik di RS Mata Dr. YAP belum dapat dipastikan dari berkas yang tersedia pada pembaruan ini. Ganti foto tersebut setelah memilih dokumentasi yang benar-benar berasal dari lokasi RS Mata Dr. YAP.
+
+
+Versi revisi: foto pengalaman RSUD Wates menggunakan foto WATES 2025 yang diberikan pengguna; foto pada kartu pengalaman RS Mata Dr. YAP dihilangkan sesuai permintaan.
