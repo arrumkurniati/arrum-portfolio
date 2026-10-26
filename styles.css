@@ -31,3 +31,24 @@ body{font-size:16px}
 .gallery-item figcaption{font-size:13px}
 @media(max-width:950px){.award-strip{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.section-heading h2{font-size:clamp(31px,8vw,39px)}.hero-text,.about-content>p:not(.lead),.section-intro,.timeline-card ul,.skill-card p,.project-content p{font-size:14px}.timeline-card h3{font-size:17px}.credential-card h3{font-size:18px}.award-strip{grid-template-columns:1fr}.award-card b{font-size:14px}.project-art-photo{min-height:280px}}
+
+
+/* Final visual corrections: legible type, correctly visible project photo, award previews */
+body{font-size:16px}
+.timeline-card ul{font-size:15px;line-height:1.8}
+.timeline-card h3{font-size:20px}
+.timeline-card .role{font-size:14px}
+.about-content .lead{font-size:22px;line-height:1.55}
+.about-content>p:not(.lead),.project-content p,.section-intro{font-size:16px;line-height:1.8}
+.project-art-photo{position:relative;overflow:hidden;min-height:410px;background:#e9f3ff}
+.project-art-photo .project-documentation{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1}
+.project-art-photo:after{content:"KARYA TULIS ILMIAH · 2026";position:absolute;left:20px;bottom:20px;background:rgba(10,39,78,.82);color:#fff;padding:10px 13px;border-radius:10px;font-size:12px;letter-spacing:1px}
+.project-art-photo .project-orb,.project-art-photo .project-label,.project-art-photo .apm-illustration{display:none!important}
+.award-strip{grid-template-columns:repeat(3,minmax(0,1fr));align-items:stretch}
+.award-card{display:flex;flex-direction:column;gap:12px;padding:14px;overflow:hidden}
+.award-thumb{display:block;width:100%;height:150px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:10px;padding:4px}
+.award-copy{display:block}
+.award-card b{font-size:15px;line-height:1.5}
+.award-card small{font-size:13px}
+.award-card em{font-size:13px}
+@media(max-width:760px){.award-strip{grid-template-columns:1fr}.award-thumb{height:180px}.about-content .lead{font-size:20px}.project-art-photo{min-height:300px}}
