@@ -37,3 +37,6 @@ Catatan: foto khusus praktik di RS Mata Dr. YAP belum dapat dipastikan dari berk
 
 
 Versi revisi: foto pengalaman RSUD Wates menggunakan foto WATES 2025 yang diberikan pengguna; foto pada kartu pengalaman RS Mata Dr. YAP dihilangkan sesuai permintaan.
+
+
+Pembaruan galeri: bagian Galeri kini menampilkan seluruh 21 foto/dokumentasi yang tersedia dalam folder assets/images. Untuk memperbarui situs yang sudah terhubung ke GitHub, unggah file index.html dan styles.css yang baru, lalu commit perubahan.

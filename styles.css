@@ -52,3 +52,9 @@ body{font-size:16px}
 .award-card small{font-size:13px}
 .award-card em{font-size:13px}
 @media(max-width:760px){.award-strip{grid-template-columns:1fr}.award-thumb{height:180px}.about-content .lead{font-size:20px}.project-art-photo{min-height:300px}}
+
+/* Galeri lengkap: tampilan konsisten untuk koleksi foto yang lebih banyak */
+.gallery-grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); align-items: stretch; }
+.gallery-item img { width: 100%; height: 230px; object-fit: cover; display: block; }
+.gallery-item.gallery-tall img { height: 320px; }
+.gallery-item figcaption { line-height: 1.5; }
