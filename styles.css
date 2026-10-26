@@ -103,3 +103,12 @@ body{font-size:16px}
 body.lightbox-open{overflow:hidden}
 @media(max-width:700px){.photo-lightbox{padding:65px 14px 70px}.photo-lightbox img{max-height:calc(100vh - 190px);border-radius:10px}.lightbox-close{top:12px;right:12px;width:42px;height:42px}.lightbox-prev,.lightbox-next{top:auto;bottom:12px;width:42px;height:42px}.lightbox-prev{left:calc(50% - 52px)}.lightbox-next{right:calc(50% - 52px)}.lightbox-hint{bottom:62px;font-size:10px}.floating-card{animation-duration:6.5s}}
 @media(prefers-reduced-motion:reduce){.floating-card,.orbit-a,.orbit-b{animation:none!important}.portrait-frame,.button,.gallery-item,.gallery-item img,.photo-lightbox,.photo-lightbox figure{transition:none!important}.button.ripple-active:before{animation:none!important}}
+
+
+/* Brand dan judul utama: animasi masuk yang lembut */
+.brand-name{display:inline-block;font-size:.88em;letter-spacing:.15px;transition:letter-spacing .3s ease,opacity .3s ease}
+.brand:hover .brand-name{letter-spacing:.65px}
+.hero-name-animated{display:inline-block;opacity:0;transform:translateY(18px);filter:blur(5px);animation:nameReveal 1.25s cubic-bezier(.2,.75,.25,1) .35s forwards}
+@keyframes nameReveal{0%{opacity:0;transform:translateY(18px);filter:blur(5px);letter-spacing:.08em}65%{opacity:1;filter:blur(0)}100%{opacity:1;transform:translateY(0);filter:blur(0);letter-spacing:normal}}
+@media(max-width:700px){.brand-name{font-size:.78em;letter-spacing:0}.hero-name-animated{animation-duration:1s}}
+@media(prefers-reduced-motion:reduce){.hero-name-animated{opacity:1;transform:none;filter:none;animation:none}}
