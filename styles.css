@@ -115,3 +115,53 @@ body.lightbox-open{overflow:hidden}
 @keyframes nameReveal{0%{opacity:0;transform:translateY(26px);filter:blur(8px);letter-spacing:.09em}55%{opacity:.8;filter:blur(2px)}100%{opacity:1;transform:translateY(0);filter:blur(0);letter-spacing:normal}}
 @media(max-width:700px){.brand-name{font-size:.78em;letter-spacing:0}.hero-name-animated{animation-duration:1.35s}}
 @media(prefers-reduced-motion:reduce){.brand-name,.hero-name-animated{opacity:1;transform:none;filter:none;animation:none}}
+/* ANIMASI NAMA ARRUM KURNIATI */
+
+@keyframes arrumNameEnter {
+  0% {
+    opacity: 0;
+    transform: translateY(35px);
+    filter: blur(12px);
+  }
+
+  70% {
+    opacity: 0.8;
+    filter: blur(2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes arrumBrandEnter {
+  0% {
+    opacity: 0;
+    transform: translateX(-25px);
+    letter-spacing: 5px;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+    letter-spacing: 0.5px;
+  }
+}
+
+/* Nama besar di bagian pembuka */
+.hero-name-animated {
+  display: inline-block !important;
+  opacity: 0;
+  animation: arrumNameEnter 1.8s ease-out 0.3s both !important;
+  will-change: transform, opacity, filter;
+}
+
+/* Nama ARRUM KURNIATI di kiri atas */
+.brand-name {
+  display: inline-block !important;
+  opacity: 0;
+  animation: arrumBrandEnter 1.4s ease-out 0.1s both !important;
+  will-change: transform, opacity;
+}
