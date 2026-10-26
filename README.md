@@ -29,3 +29,8 @@ Dokumentasi Vercel: https://vercel.com/docs/deployments/overview
 
 ## Catatan
 Skill bar adalah elemen visual dekoratif, bukan hasil penilaian kemampuan.
+
+## Update versi revisi (Oktober 2026)
+Versi ini menambahkan foto wisuda bersama pimpinan kampus sebagai foto profil, dokumentasi karya tulis ilmiah, serta tautan langsung untuk membuka tiga sertifikat penghargaan (Duta Kebakres, Duta Kampus, dan Lomba Vlog). Ukuran huruf juga diperbesar agar lebih mudah dibaca di desktop maupun ponsel.
+
+Catatan: foto khusus praktik di RS Mata Dr. YAP belum dapat dipastikan dari berkas yang tersedia pada pembaruan ini. Ganti foto tersebut setelah memilih dokumentasi yang benar-benar berasal dari lokasi RS Mata Dr. YAP.
