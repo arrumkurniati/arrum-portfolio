@@ -40,3 +40,6 @@ Versi revisi: foto pengalaman RSUD Wates menggunakan foto WATES 2025 yang diberi
 
 
 Pembaruan galeri: bagian Galeri kini menampilkan seluruh 21 foto/dokumentasi yang tersedia dalam folder assets/images. Untuk memperbarui situs yang sudah terhubung ke GitHub, unggah file index.html dan styles.css yang baru, lalu commit perubahan.
+
+
+Pembaruan 28 Oktober 2026: bagian sertifikasi ditambahkan dengan pelatihan Microsoft Word & Excel (YEC), sertifikat seminar AMMIK, dan kuliah umum SNOMED CT. Dua sertifikat berbentuk gambar dibuka melalui tab baru.
