@@ -43,8 +43,3 @@ Pembaruan galeri: bagian Galeri kini menampilkan seluruh 21 foto/dokumentasi yan
 
 
 Pembaruan 28 Oktober 2026: bagian sertifikasi ditambahkan dengan pelatihan Microsoft Word & Excel (YEC), sertifikat seminar AMMIK, dan kuliah umum SNOMED CT. Dua sertifikat berbentuk gambar dibuka melalui tab baru.
-
-
-## Pembaruan CV 2026
-
-Konten portofolio diselaraskan dengan CV terbaru. Sertifikat SNOMED-CT ditampilkan pada kategori Kuliah Umum (bukan sertifikasi kompetensi), dan tombol Lihat CV mengarah ke berkas CV terbaru pada `assets/documents/CV-Arrum-Kurniati.pdf`.
